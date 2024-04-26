@@ -1,0 +1,14 @@
+body {
+    background-color: #536c96;
+}
+
+.nav-link {
+    color: #fff;
+    /* Color blanco para el texto de los enlaces */
+    /* Otros estilos si los necesitas */
+}
+
+.nav-link:hover {
+    color: #17a2b8;
+    /* Cambio de color al pasar el cursor sobre el enlace */
+}

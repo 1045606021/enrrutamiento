@@ -1,0 +1,99 @@
+
+body {
+    background-color: #445d89;
+}
+.elemento {
+    margin: 10px;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////7 */
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 0 10px #000;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 00,1%;
+}
+
+#chk1 {
+    display: none;
+
+}
+header .logo {
+    flex: 1;
+    color: #fff;
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+header .search-box {
+    flex: 1;
+    position: relative;
+}
+
+header ul {
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+
+/* Estilos para el enlace y la línea subrayada */
+.nav-link {
+    color: rgb(255, 255, 255);
+    /* Color por defecto del texto */
+    position: relative;
+}
+
+.nav-link:hover {
+    color: rgb(255, 234, 0);
+justify-content: center;
+}
+
+.underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background-color: red;
+    justify-content: center;
+
+    /* Color de la línea subrayada */
+    transition: width 0.5s ease;
+    /* Efecto de transición en la anchura */
+}
+
+.nav-link:hover .underline {
+    width: 100%;
+    /* Ancho completo al pasar el cursor sobre el enlace */
+}
+
+.sombra{
+    font-size: 40px;
+    background: none; /* Elimina el fondo */
+    border: none; /* Elimina cualquier borde */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.689); /* Aplica la sombra al texto */
+}

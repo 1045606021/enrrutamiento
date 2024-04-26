@@ -1,0 +1,96 @@
+
+.nav-link {
+    position: relative;
+    color: #ffff;
+}
+
+.nav-link:hover .underline {
+    width: 100%;
+}
+.underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 0;
+    background-color: #FF0000;
+    transition: width 0.5s ease;
+}
+.nav-link:hover {
+    color: #fbff22; /* Cambia 'tu_color_deseado' al color que desees al pasar el cursor */
+}
+
+.nav-link:hover .underline {
+    width: 100%;
+    
+}
+
+.activo{
+    background-color:rgb(139, 235, 115);
+}
+.inactivo{
+    background-color:#FF0000;
+}
+.editar{
+    background-color:rgb(230, 255, 88);
+}
+
+/* configuracion de la tabla d elos registros://////////////////////////////////*/
+
+.expandida {
+    overflow-x: auto;
+     white-space: nowrap;  /*fuerza a que todo el texto esté en una sola línea. */
+    }
+    .container {
+        overflow-x: auto;
+        }
+        table.table-sm th,
+        table.table-sm td {
+            padding: 1px;
+            font-size: 13px; /* tamaño de la la tabla*/
+        }
+        .table-container {
+            max-height: 550px; /* tamaño de la tabla*/
+            overflow-y: auto;
+        }
+
+        .navbar{
+            background-color: #080c1d92;
+        }
+
+        body {
+            background-color: #172a7391;
+            background-image: url('../assets/images/bg1.jpg');
+
+
+        }
+        .table-container {
+            background-color: #1b288869;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse; /* Combina los bordes para obtener esquinas más nítidas */
+            margin-top: 20px;
+
+        }
+        .table-container{
+            border-radius: 20px;
+        }
+
+        th {
+            background-color: #d3d6ddaa; /* Color de fondo para las celdas de encabezado */
+        }
+
+        tr:hover {
+            background-color: #6e62bc; /* Color de fondo al pasar el cursor sobre una fila */
+        }
+        .lead{
+            color:#ffffff
+        }
+        table.table thead tr.alto {
+            background-color: #0d0e18;
+            height: 45px;
+            text-align: center;
+        }
+        
